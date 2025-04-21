@@ -1,1 +1,4 @@
+Query 2: Show the total number of admissions
+
+Sol: select count(*) AS total_admissions FROM admissions;   
 
