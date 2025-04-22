@@ -1,9 +1,9 @@
 Query 5: Based on the cities that our patients live in, show unique cities that are in province_id 'NS'
 
 Sol 1:  SELECT distinct(city) AS unique_cities from patients
-         where province_id = 'NS' 
+         where province_id = 'NS'; 
 
 Sol 2: SELECT City FROM patients
        WHERE province_id = 'NS'
        group by CITY
-       having COUNT(city) > 1 
+       having COUNT(city) > 1; 
